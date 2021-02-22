@@ -63,6 +63,15 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 100vw;
+    padding: 0 5px;
+  }
+
+  .panel {
+    margin: 0 5px;
+  }
+
+  .panel.active {
+    flex: 4;
   }
 
   .panel:nth-of-type(3) {
